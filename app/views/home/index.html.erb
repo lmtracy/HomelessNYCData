@@ -1,0 +1,8 @@
+
+<% @data['homeless'].each do | homeless |%>
+    <ul>
+    <li><strong>Census Date:</strong> <%= homeless['Date of Census'] %> </li>
+    <li><strong>Total Adults in Shelter:</strong> <%= homeless['Total Adults in Shelter'] %> </li>
+    </ul>
+      <hr/>
+<% end %>
